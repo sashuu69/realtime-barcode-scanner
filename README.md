@@ -26,3 +26,7 @@ This program is written by keeping on main point in focus, automation. Anyone ca
 
 5. Install opencv2.\
     `$ pip install opencv-python`
+
+# Notes
+
+1. By default, the program uses webcam (USB camera). If you want to use the Pi camera, change the code from `usePiCamera=False` to `usePiCamera=True`.
