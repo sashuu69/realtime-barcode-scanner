@@ -43,12 +43,10 @@ while True:
 
     # show the output frame
     cv2.imshow("Barcode Scanner", frame)
-    key = cv2.waitKey(1) & 0xFF
 
     if barcode_number != 0:
         break
 
 print(barcode_number)
-# csv.close()
 cv2.destroyAllWindows()
 vs.stop()
