@@ -1,5 +1,11 @@
-# barcode-scanner-using-opencv
-A barcode scanner using opencv2.
+# Barcode Scanner
+The barcode scanner is a simple command-line python program to fetch barcodes. The program is developed using python3 and the packages used by the program are:-
+1. Pyzbar
+2. imutils
+3. opencv2
+
+# Applications
+This program is written by keeping on main point in focus, automation. Anyone can use program inside their large application without any major changes. This is because the proram is written in such a way that, whenever a barcode is detected by the program, it will exit itself after printing the barcode.
 
 # Prerequisites
 
