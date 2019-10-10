@@ -47,6 +47,6 @@ while True:
     if barcode_number != 0:
         break
 
-print(barcode_number)
+print(barcode_number) # print barcode to console
 cv2.destroyAllWindows()
 vs.stop()
